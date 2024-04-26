@@ -9,7 +9,6 @@ ul {
 
 header {
     background-image: linear-gradient(to right, white, #8ecae671);
-    margin-left : -3rem;
   }
 .page-header {
     position: absolute;
@@ -198,9 +197,10 @@ footer a:hover {
 }
 .ft-main{
     background-color: #023047;
-    padding: 10px 15px; 
+    padding: 10px 10px; 
     display: flex;
     flex-wrap: wrap; 
+    margin-bottom: -1.6rem;   
 }
 .fab{
     font-size: 21px;
@@ -217,6 +217,7 @@ footer a:hover {
 }
 .image {
     height: 30px;
+    width: 190px;
 }
 .end{
     text-align: center;
@@ -258,6 +259,7 @@ button:hover{
     display: grid;
 }
 .ft-copyright {
+    
     height: fit-content; 
     margin-bottom: -28px;
     font-size: 13px;
