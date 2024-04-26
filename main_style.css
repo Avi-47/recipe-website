@@ -1,6 +1,3 @@
-body{
-    margin-right: -3rem;
-}
 a {
     color: inherit;
     text-decoration: none;
@@ -163,15 +160,13 @@ ol a{
 
 ul {
     list-style-type:none;
-    padding-left: 0;  
-    padding-right: 0;  
+    padding-left: 0;    
     font-size: 13px;   
 }
 
 footer{
     color: #fff;
-    height: fit-content;
-    margin-top:30rem;
+    height: fit-content; 
 }
 
 footer a {
