@@ -1,0 +1,274 @@
+a {
+    color: inherit;
+    text-decoration: none;
+}
+ul {
+    color: inherit;
+    text-decoration: none;
+}
+
+header {
+    background-image: linear-gradient(to right, white, #8ecae671);
+  }
+.page-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+  }
+  .logo{
+    margin-left: -7rem;
+  }
+  .page-header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: -8.3rem;
+  }
+
+.page-header li{
+    white-space: nowrap;   
+    margin: 0.125rem 0.625rem;
+    padding: 0.025rem;
+}
+
+
+.page-header a{
+    text-decoration: none;
+    color: #023047;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.heading-links a:nth-last-child(5) {
+    flex: 1;
+}
+.heading-links a {
+    position: relative;
+    
+  }
+  
+  .heading-links li a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1.3px;
+    background-color:#023047;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: width 0.3s ease-out, opacity 0.3s ease-out;
+  }
+  
+  .heading-links li a:hover::after {
+    width: 100%;
+    opacity: 1;
+  }
+
+.page-header .heading-links {
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 14px 20px;
+    color: white;
+    background: #5ebadc0a;
+  }
+  .page-header .heading-links li {
+    text-align: right; 
+  }
+  
+
+
+  /*<-------------body ---------->  */
+
+  .background {
+    background-image: url("https://www.ieee-jaduniv.in/assets/12339248_945275338898078_4922629178692393455_o-5HziPx-4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+    position: fixed;
+    top: 0;  
+    left: 0; 
+    z-index: -1;
+    opacity: 0.3;
+  }
+  
+  .background img {
+    width: 100vw;
+    height: 100vh;
+    object-fit:contain;
+  }
+
+
+.relative {
+    margin: 100px 0 20px;
+}
+  .heading{
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight:600;
+    font-size: 50px;
+    font-style: normal;
+    line-height: 200px;
+    margin-top: 80px;
+}
+ol a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 24px;
+    line-height: 60px;
+    font-weight: 600;
+}
+ol a{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.779);
+}
+/* ol a:hover{
+    color: #00b7ff;
+} */
+.projects li {
+    position: relative;
+    
+  }
+  
+  .projects a li::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 1.3px;
+    background-color:#219EBC;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: width 0.3s ease-out, opacity 0.3s ease-out;
+  }
+  
+  .projects a li:hover::after {
+    width: 100%;
+    opacity: 1;
+  }
+/* <---------------footer-----------------> */
+
+
+ul {
+    list-style-type:none;
+    padding-left: 0;    
+    font-size: 13px;   
+}
+
+footer{
+    color: #fff;
+    height: fit-content; 
+}
+
+footer a {
+    text-decoration: none;
+    color: #eee;
+}
+
+
+footer a:hover {
+    color: rgb(214, 0, 175);
+}
+.ft-title {
+    color: #fff;
+    font-size: 18px;
+}
+.container-foot {
+    min-height: calc(39vh - 10px);
+  }
+.container-foot {
+    flex: 1;
+}
+.ft-copyright {
+    margin-bottom: -20px;
+}
+
+.image{
+    color: white;
+}
+.ft-main{
+    background-color: #023047;
+    padding: 20px 15px; 
+    display: flex;
+    flex-wrap: wrap;    
+}
+.fab{
+    font-size: 21px;
+}
+.fas{
+    font-size: 13px;
+}
+
+@media only screen and (min-width : 29.8125rem){
+    .ft-main{
+        justify-content: space-evenly;
+        
+    }
+}
+.image {
+    height: 40px;
+}
+.end{
+    text-align: center;
+    text-decoration:solid;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+input[type="email"]{
+        border: 0;
+        padding: 0.625rem;
+        margin-top: 0.8rem;
+    }
+button[type="submit"]{
+        border: 0;
+        padding: 0.625rem 0.9375rem;
+        margin-top: 0.8rem;
+        background-color: #00d188;
+      }
+button:hover{
+    background-color: #FFB703;
+}
+
+.ft-copyright {
+    font-size: 13px;
+    background-color: #3a3a3a;
+    z-index: 1;
+  }
+.ft-legal-list{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ft-legal-list li{
+    white-space: nowrap;      
+    margin-top: 0.125rem;
+    margin-right:  0.625rem;
+    padding: 0.025rem;
+}
+.ft-legal-list .home{
+    margin-left: -1.5rem;
+}
+.ft-legal-list a {
+    text-decoration: none;
+    color: #bbb;
+}
+.ft-legal-list a:hover{
+    color: #eee;
+}
+.ft-legal-list li:nth-last-child(2) {
+    flex: 1;
+}
+.copyright{
+    color: #bbb;
+}
