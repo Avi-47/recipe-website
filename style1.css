@@ -13,13 +13,13 @@ a {
     margin-bottom: 100rem;
   }
   .logo{
-    margin-left: -2rem;
+    margin-left: -19rem;
   }
   .page-header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: -8.3rem;
+    margin-right: -6rem;
   }
   
   .page-header li{
