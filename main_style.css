@@ -257,6 +257,7 @@ button:hover{
     display: grid;
 }
 .ft-copyright {
+    height: fit-content; 
     margin-bottom: -28px;
     font-size: 13px;
     background-color: #3a3a3a;
