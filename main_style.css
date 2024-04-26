@@ -166,9 +166,7 @@ ul {
 
 footer{
     color: #fff;
-    height: fit-content;
-    background-color: #023047;
-    margin-bottom: -2.5rem; 
+    height: fit-content; 
 }
 
 footer a {
@@ -198,6 +196,7 @@ footer a:hover {
     color: white;
 }
 .ft-main{
+    background-color: #023047;
     padding: 10px 10px; 
     display: flex;
     flex-wrap: wrap; 
@@ -242,7 +241,7 @@ button:hover{
 }
 .social{
     text-align: center;
-    margin-top: -0.3rem;
+    margin-top: -2rem;
   }
   .social-list{
     display: flex;
@@ -253,7 +252,7 @@ button:hover{
     margin-right: 36px;
   }
   .ft-bottom{
-    margin-top: -1rem;
+    margin-top: -0.51rem;
     text-align: center;
   }
 .ending {
@@ -262,7 +261,7 @@ button:hover{
 .ft-copyright {
     
     height: fit-content; 
-    margin-top: 2rem;
+    margin-bottom: -28px;
     font-size: 13px;
     background-color: #3a3a3a;
     z-index: 1;
