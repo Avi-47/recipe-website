@@ -18,7 +18,7 @@ header {
     z-index: 1;
   }
   .logo{
-    margin-left: 0rem;
+    margin-left: -4rem;
   }
   .page-header nav {
     display: flex;
@@ -75,6 +75,7 @@ header {
     font-weight: 500;
     padding: 14px 20px;
     color: white;
+    margin-right: -5rem;
     background: #5ebadc0a;
   }
   .page-header .heading-links li {
