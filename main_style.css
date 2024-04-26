@@ -9,7 +9,7 @@ ul {
 
 header {
     background-image: linear-gradient(to right, white, #8ecae671);
-    margin-left : 3rem;
+    margin-left : -3rem;
   }
 .page-header {
     position: absolute;
