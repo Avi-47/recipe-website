@@ -18,13 +18,13 @@ header {
     z-index: 1;
   }
   .logo{
-    margin-left: -7rem;
+    margin-left: 0rem;
   }
   .page-header nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-right: -8.3rem;
+    margin-right: 0rem;
   }
 
 .page-header li{
@@ -94,7 +94,7 @@ header {
     top: 0;  
     left: 0; 
     z-index: -1;
-    opacity: 0.3;
+    opacity: 0.5;
   }
   
   .background img {
@@ -129,9 +129,7 @@ ol a{
     text-decoration: none;
     color: rgba(0, 0, 0, 0.779);
 }
-/* ol a:hover{
-    color: #00b7ff;
-} */
+
 .projects li {
     position: relative;
     
@@ -166,7 +164,9 @@ ul {
 
 footer{
     color: #fff;
-    height: fit-content; 
+    height: fit-content;
+    background-color: #023047;
+    margin-bottom: -2.5rem; 
 }
 
 footer a {
@@ -196,8 +196,7 @@ footer a:hover {
     color: white;
 }
 .ft-main{
-    background-color: #023047;
-    padding: 10px 10px; 
+    padding: 10px 8rem; 
     display: flex;
     flex-wrap: wrap; 
     margin-bottom: -1.6rem;   
@@ -241,7 +240,7 @@ button:hover{
 }
 .social{
     text-align: center;
-    margin-top: -2rem;
+    margin-top: -0.3rem;
   }
   .social-list{
     display: flex;
@@ -252,7 +251,7 @@ button:hover{
     margin-right: 36px;
   }
   .ft-bottom{
-    margin-top: -0.51rem;
+    margin-top: -1rem;
     text-align: center;
   }
 .ending {
@@ -261,7 +260,7 @@ button:hover{
 .ft-copyright {
     
     height: fit-content; 
-    margin-bottom: -28px;
+    margin-top: 2rem;
     font-size: 13px;
     background-color: #3a3a3a;
     z-index: 1;
