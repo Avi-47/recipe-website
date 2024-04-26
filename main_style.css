@@ -170,7 +170,8 @@ ul {
 
 footer{
     color: #fff;
-    height: fit-content; 
+    height: fit-content;
+    margin-top:30rem;
 }
 
 footer a {
