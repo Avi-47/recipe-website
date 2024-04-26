@@ -132,8 +132,9 @@ a {
 
   .recipe-image {
     margin-bottom: 0.2rem;
-    width: 60%;
+    width: 20%;
     max-width: 300px;
+    border-radius: 10px;
   }
 
   .recipe-title {
