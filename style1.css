@@ -287,6 +287,8 @@ a {
     text-align: center;
   }
   .ft-copyright {
+    height: fit-content; 
+    margin-top: 2rem;
     font-size: 13px;
     background-color: #3a3a3a;
     z-index: 1;
