@@ -239,12 +239,13 @@ body {
 
 ul {
   list-style-type:none;
-  padding-left: 0;    
+  padding-left: 0;
   font-size: 13px;   
 }
 footer{
   color: #fff;
   height: fit-content;
+  margin-top: -10rem;
   margin-bottom: -2.5rem; 
 }
 
