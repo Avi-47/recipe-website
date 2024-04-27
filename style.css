@@ -115,7 +115,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 70%;
+  width: 60%;
   margin: 16rem;
   background-color: #fdf0d5ae;
   border-radius: 20px;
@@ -125,7 +125,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 50%;
+  width: 200%;
   margin-top: 1rem;
   margin-left: -155px;
   margin-bottom: 17px;
