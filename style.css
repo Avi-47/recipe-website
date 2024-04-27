@@ -246,6 +246,7 @@ footer{
   color: #fff;
   height: fit-content; 
   margin-top: 10rem;
+  margin-bottom: -2.5rem; 
 }
 
 footer a {
